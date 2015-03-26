@@ -10,3 +10,8 @@ In the first step I build an in memory dataset. On startup, the program creates 
 
 Once the datastore is populated, an interface to query the datastore is prompted. This is a command-line interface. It allows the user to enter their age, latitude and longitude, and provides a list of 10 people who are "similar" -- i.e., of a similar age, and living nearby. It provides the 10 closest people within 1 second for at least 95% of queries. The results show the name, age and location of each of the 10 recommended people.
 
+# Installation
+1. Download the code
+2. Open the solution in Visual Studio
+3. Build the solution (preferably in Release mode to get faster runs)
+4. Execute the program in a command window and use the program.
